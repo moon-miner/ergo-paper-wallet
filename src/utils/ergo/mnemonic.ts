@@ -4,6 +4,7 @@ import Seed from "./seed";
 
 export default class Mnemonic {
   private _mnemonic = "";
+  private _passphrase = "";
 
   constructor(strength: number);
   constructor(mnemonic: string);
@@ -25,9 +26,17 @@ export default class Mnemonic {
     return bip39.generateMnemonic(strength);
   }
 
+  public setPassphrase(passphrase: string): void {
+    this._passphrase = passphrase;
+  }
+
+  public getPassphrase(): string {
+    return this._passphrase;
+  }
+
   public async toSeed(): Promise<Seed> {
     return bip39
-      .mnemonicToSeed(this._mnemonic)
+      .mnemonicToSeed(this._mnemonic, this._passphrase)
       .then((buffer) => {
         return new Seed(buffer);
       })

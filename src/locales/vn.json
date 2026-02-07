@@ -32,6 +32,12 @@
     "nextButton": "Xong",
     "printButton": "In",
     "newWalletButton": "Ví mới",
+    "passphraseToggle": "Sử dụng passphrase BIP39",
+    "passphrasePlaceholder": "Nhập passphrase (tùy chọn)",
+    "passphraseOptionsToggle": "Tùy chọn In",
+    "showPassphraseOnPrint": "In passphrase (KHÔNG KHUYẾN NGHỊ - rủi ro bảo mật)",
+    "showPassphraseIndicator": "Hiển thị chỉ báo passphrase",
+    "passphraseHintPlaceholder": "Gợi ý passphrase (tùy chọn)",
     "strengthSelect": {
       "title": "Sức mạnh của ví",
       "words": "các từ"
@@ -49,11 +55,17 @@
       "title": "Mnemonic",
       "tip": "<strong>KHÔNG TIẾT LỘ hoặc CHIA SẺ CỤM TỪ MNEMONIC NÀY</strong> với bất kì ai. Những từ này cung cấp quyền truy cập đầy đủ vào các khoản tiền được lưu trên ví này."
     },
+    "passphrase": {
+      "title": "Passphrase BIP39",
+      "warning": "In passphrase phá hủy mục đích bảo mật của nó. Lưu trữ riêng biệt.",
+      "indicator": "Ví này sử dụng passphrase BIP39. Bạn phải nhập nó khi khôi phục.",
+      "hintTitle": "Gợi ý Passphrase"
+    },
     "instructions": {
       "title": "Hướng dẫn",
       "obfuscatingMsg": "Xin vui lòng bỏ qua điều này. Chỉ là một số thứ giúp làm mờ mnemonic, phòng trường hợp ai đó cố gắng xem qua ví bằng cách sử dụng đèn pin.",
       "bulletOne": "Gấp tờ giấy làm bốn phần bằng cách sử dụng nét đứt làm hướng dẫn, sao cho cụm mnemonic nằm ở bên trong và dán nó bằng băng dính hoặc keo; và ",
-      "bulleTwo": "Giữ nó an toàn và tránh xa ẩm mốc. Hãy coi ví giấy như tiền mặt. Nếu bạn làm mất hoặc không đọc được, tiền của bạn sẽ biến mất vĩnh viễn."
+      "bulletTwo": "Giữ nó an toàn và tránh xa ẩm mốc. Hãy coi ví giấy như tiền mặt. Nếu bạn làm mất hoặc không đọc được, tiền của bạn sẽ biến mất vĩnh viễn."
     }
   }
 }

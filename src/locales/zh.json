@@ -32,6 +32,12 @@
     "nextButton": "完成",
     "printButton": "打印",
     "newWalletButton": "新钱包",
+    "passphraseToggle": "使用BIP39密码短语",
+    "passphrasePlaceholder": "输入密码短语（可选）",
+    "passphraseOptionsToggle": "打印选项",
+    "showPassphraseOnPrint": "打印密码短语（不推荐 - 安全风险）",
+    "showPassphraseIndicator": "显示密码短语指示器",
+    "passphraseHintPlaceholder": "密码短语提示（可选）",
     "strengthSelect": {
       "title": "钱包强度",
       "words": "单词"
@@ -49,11 +55,17 @@
       "title": "助记词",
       "tip": "<strong>切勿向任何人透露或分享此助记词</strong>。这些词可让人完全取用存储在此钱包中的资金。"
     },
+    "passphrase": {
+      "title": "BIP39密码短语",
+      "warning": "打印密码短语会破坏其安全目的。请分开存储。",
+      "indicator": "此钱包使用BIP39密码短语。恢复时必须输入。",
+      "hintTitle": "密码短语提示"
+    },
     "instructions": {
       "title": "须知",
       "obfuscatingMsg": "请忽略这一点。只是一些噪音来帮助混淆助记词，以防有人试图用手电筒看穿钱包。",
       "bulletOne": "沿着虚线将纸钱包折叠成四部分，这样助记词就留在里面，然后用胶带或胶水密封好它；且",
-      "bulleTwo": "将纸钱包安全保存并远离潮湿。像对待现金一样对待纸钱包。如果纸钱包被您弄丢或变得难以辨认，您的资金将永远找不回来。"
+      "bulletTwo": "将纸钱包安全保存并远离潮湿。像对待现金一样对待纸钱包。如果纸钱包被您弄丢或变得难以辨认，您的资金将永远找不回来。"
     }
   }
 }

@@ -33,6 +33,12 @@
     "nextButton": "Selesai",
     "printButton": "Cetak",
     "newWalletButton": "Dompet baru",
+    "passphraseToggle": "Gunakan passphrase BIP39",
+    "passphrasePlaceholder": "Masukkan passphrase (opsional)",
+    "passphraseOptionsToggle": "Opsi Cetak",
+    "showPassphraseOnPrint": "Cetak passphrase (TIDAK DIREKOMENDASIKAN - risiko keamanan)",
+    "showPassphraseIndicator": "Tampilkan indikator passphrase",
+    "passphraseHintPlaceholder": "Petunjuk passphrase (opsional)",
     "strengthSelect": {
       "title": "Kekuatan dompet",
       "words": "kata-kata"
@@ -50,11 +56,17 @@
       "title": "Mnemonik",
       "tip": "<strong>JANGAN MENGUNGKAPKAN or MEMBAGIKAN FRASA MNEMONIK INI</strong> dengan siapapun. Kata-kata ini memberikan akses ke dana yang di simpan di dompet ini."
     },
+    "passphrase": {
+      "title": "Passphrase BIP39",
+      "warning": "Mencetak passphrase menghilangkan tujuan keamanannya. Simpan secara terpisah.",
+      "indicator": "Dompet ini menggunakan passphrase BIP39. Anda harus memasukkannya saat memulihkan.",
+      "hintTitle": "Petunjuk Passphrase"
+    },
     "instructions": {
       "title": "Petunjuk",
       "obfuscatingMsg": "Mohon abaikan ini. Ini hanya pengalihan untuk mengaburkan mnemonik, untuk berjaga-jaga apabila ada yang mencoba untuk melihat tembus dompet ini menggunakan senter.",
       "bulletOne": "Lipat lebaran ini menjadi empat bagian dengan menggunakan garis putus-putus sebagai panduan, sehingga frasa mnemonik tetap berada di bagian dalam dan, setelah itu, segel dengan selotip atau lem; dan",
-      "bulleTwo": "Simpan di tempat yang aman dan jauh dari kelembaban. Perlakukan dompet kertas seperti uang. Jika hilang atau menjadi tidak terbaca, dana anda akan hilang selamanya."
+      "bulletTwo": "Simpan di tempat yang aman dan jauh dari kelembaban. Perlakukan dompet kertas seperti uang. Jika hilang atau menjadi tidak terbaca, dana anda akan hilang selamanya."
     }
   }
 }

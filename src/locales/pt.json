@@ -32,6 +32,12 @@
     "nextButton": "Finalizar",
     "printButton": "Imprimir",
     "newWalletButton": "Nova carteira",
+    "passphraseToggle": "Usar passphrase BIP39",
+    "passphrasePlaceholder": "Digite a passphrase (opcional)",
+    "passphraseOptionsToggle": "Opções de Impressão",
+    "showPassphraseOnPrint": "Imprimir passphrase (NÃO RECOMENDADO - risco de segurança)",
+    "showPassphraseIndicator": "Mostrar indicador de passphrase",
+    "passphraseHintPlaceholder": "Dica de passphrase (opcional)",
     "strengthSelect": {
       "title": "Força da carteira",
       "words": "palavras"
@@ -49,11 +55,17 @@
       "title": "Mnemônicos",
       "tip": "<strong>NÃO REVELE OU COMPARTILHE ESTA FRASE MNEMÔNICA</strong> com ninguém. Estas palavras permitem acesso completo aos fundos armazenados nesta carteira."
     },
+    "passphrase": {
+      "title": "Passphrase BIP39",
+      "warning": "Imprimir a passphrase anula seu propósito de segurança. Armazene separadamente.",
+      "indicator": "Esta carteira usa passphrase BIP39. Você deve digitá-la ao restaurar.",
+      "hintTitle": "Dica de Passphrase"
+    },
     "instructions": {
       "title": "Instruções",
       "obfuscatingMsg": "Por favor, ignore isto. Apenas algum ruído para ajudar a ofuscar os mnemônicos, caso alguém tende vê-los através da carteira usando uma lanterna.",
       "bulletOne": "Dobre esta folha em quatro partes usando a linha pontilhada como guia, de forma the a frase mnemônica fique do lado de dentro e, em seguida, sele-a com fita ou cola; e",
-      "bulleTwo": "Mantenha-a segura e longe de umidade. Trate a sua carteira de papel como se fosse dinheiro. Se você perde-la ou ela se tornar ilegível, seus fundos estarão perdidos para sempre."
+      "bulletTwo": "Mantenha-a segura e longe de umidade. Trate a sua carteira de papel como se fosse dinheiro. Se você perde-la ou ela se tornar ilegível, seus fundos estarão perdidos para sempre."
     }
   }
 }

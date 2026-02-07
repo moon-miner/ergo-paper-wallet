@@ -33,6 +33,12 @@
     "nextButton": "Listo",
     "printButton": "Imprimir",
     "newWalletButton": "Nueva billetera",
+    "passphraseToggle": "Usar passphrase BIP39",
+    "passphrasePlaceholder": "Ingresa passphrase (opcional)",
+    "passphraseOptionsToggle": "Opciones de Impresión",
+    "showPassphraseOnPrint": "Imprimir passphrase (NO RECOMENDADO - riesgo de seguridad)",
+    "showPassphraseIndicator": "Mostrar indicador de passphrase",
+    "passphraseHintPlaceholder": "Pista/recordatorio de passphrase (opcional)",
     "strengthSelect": {
       "title": "Seguridad de la billetera",
       "words": "palabras"
@@ -48,13 +54,19 @@
     },
     "mnemonic": {
       "title": "Frase mnemónica",
-      "tip": "<strong>NO REVELES NI COMPARTES ESTA FRASE</strong> con nadie. Estas palabras entregan control total sobre los fondos de esta billetera"
+      "tip": "<strong>NO REVELES NI COMPARTAS ESTA FRASE</strong> con nadie. Estas palabras entregan control total sobre los fondos de esta billetera"
+    },
+    "passphrase": {
+      "title": "Passphrase BIP39",
+      "warning": "Imprimir el passphrase anula su propósito de seguridad. Guárdalo por separado.",
+      "indicator": "Esta billetera usa passphrase BIP39. Debes ingresarlo al restaurar.",
+      "hintTitle": "Pista de Passphrase"
     },
     "instructions": {
       "title": "Instrucciones",
       "obfuscatingMsg": "Porfavor ignora esto. Es tan sólo para hacer que sea más difícil leer la frase mnemónica en caso de que alguien intente leerla con una linterna. ",
       "bulletOne": "Dobla este papel en cuatro partes siguiendo la línea punteada como guía, de tal manera que la frase quede en el interior, luego séllala con cinta adhesiva o pegamento; y",
-      "bulleTwo": "Manten el papel seguro y alejado de la humedad. Trata este papel como si fuera un billete. Si lo pierdes o queda ilegible, perderás tus fondos para siempre."
+      "bulletTwo": "Manten el papel seguro y alejado de la humedad. Trata este papel como si fuera un billete. Si lo pierdes o queda ilegible, perderás tus fondos para siempre."
     }
   }
 }

@@ -32,6 +32,12 @@
     "nextButton": "Klaar",
     "printButton": "Afdrukken",
     "newWalletButton": "Nieuwe wallet",
+    "passphraseToggle": "Gebruik BIP39 passphrase",
+    "passphrasePlaceholder": "Voer passphrase in (optioneel)",
+    "passphraseOptionsToggle": "Afdrukopties",
+    "showPassphraseOnPrint": "Passphrase afdrukken (NIET AANBEVOLEN - veiligheidsrisico)",
+    "showPassphraseIndicator": "Passphrase indicator tonen",
+    "passphraseHintPlaceholder": "Passphrase hint (optioneel)",
     "strengthSelect": {
       "title": "Wallet sterkte",
       "words": "woorden"
@@ -49,11 +55,17 @@
       "title": "Sleutelwoorden",
       "tip": "<strong>TOON OF DEEL DEZE SLEUTELWOORDEN NIET</strong> met iemand. Deze woorden verschaffen volledige toegang tot de middelen die zijn opgeslagen in deze wallet."
     },
+    "passphrase": {
+      "title": "BIP39 Passphrase",
+      "warning": "Het afdrukken van de passphrase ondermijnt het veiligheidsdoel. Bewaar apart.",
+      "indicator": "Deze wallet gebruikt een BIP39 passphrase. U moet deze invoeren bij herstel.",
+      "hintTitle": "Passphrase Hint"
+    },
     "instructions": {
       "title": "Gebruiksaanwijzing",
       "obfuscatingMsg": "Negeer dit alstublieft. Dit is slechts wat ruis om de sleutelwoorden te helpen verbergen, in het geval dat iemand door de wallet probeert heen te kijken met een zaklamp.",
       "bulletOne": "Vouw de wallet in vieren met de stippellijnen als richtlijn, zodat de sleutelwoorden aan de binnenkant blijven, en verzegel de wallet daarna met tape of lijm; en",
-      "bulleTwo": "Bewaar het op een veilige en droge plek. Behandel een paper wallet zoals cashgeld. Bij verlies of bij onbruikbaarheid van het papier zijn uw middelen voor altijd ontoegankelijk."
+      "bulletTwo": "Bewaar het op een veilige en droge plek. Behandel een paper wallet zoals cashgeld. Bij verlies of bij onbruikbaarheid van het papier zijn uw middelen voor altijd ontoegankelijk."
     }
   }
 }
